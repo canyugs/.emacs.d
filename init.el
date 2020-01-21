@@ -7,6 +7,8 @@
 ;; Magit, global key binding
 (global-set-key (kbd "C-x g") 'magit-status)
 
+;; Keybindings for windows focus move
+(windmove-default-keybindings)
 
 ;; Use Package Manager
 (require 'package)
